@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/mylistview_editText"
+        android:background="#FFFFFF"
+        android:layout_gravity="left|center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Veri Ekle"
+        android:id="@+id/mylistview_button_veriEkle"
+        android:layout_gravity="left"
+        android:textColor="#FF0000"
+
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verileri Göster"
+        android:id="@+id/mylistview_button_veriGoster"
+        android:layout_gravity="right"
+       />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mylistview_gosterilenVeri"
+        android:longClickable="true"
+        android:headerDividersEnabled="false"
+        android:drawSelectorOnTop="true"
+        android:clickable="true"/>
+
+
+</LinearLayout>

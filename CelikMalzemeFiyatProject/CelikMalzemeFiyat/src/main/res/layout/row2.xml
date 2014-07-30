@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+
+    <TextView
+        android:id="@+id/_malzeme_id"
+        android:paddingLeft="2dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/malzemeisimi"
+        android:paddingLeft="2dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#0ff801"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/bosis3"
+        android:paddingLeft="2dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#FF32CC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" |  " />
+    <TextView
+        android:id="@+id/tarih"
+        android:paddingLeft="5dp"
+        android:textColor="#e11a1a"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silmek için tıkla" />
+
+</LinearLayout>

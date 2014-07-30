@@ -1,0 +1,65 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.78" >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="HOME"
+                    android:orientation="vertical">
+
+                    <Spinner
+                        android:id="@+id/comboBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:background="#FFFFFF"
+                        android:layout_below="@+id/textView1"
+                        android:layout_alignLeft="@+id/textView1"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/databaseView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="10dp"
+                        android:text="TAB 1"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_marginTop="20dp"/>
+
+
+
+                </LinearLayout>
+            </ScrollView>
+
+
+
+        </LinearLayout>
+
+    </AbsoluteLayout>
+
+
+</LinearLayout>
